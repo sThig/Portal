@@ -1,0 +1,426 @@
+::-moz-selection {
+    background-color: #91D8f7;
+    color: #fff;
+}
+
+::selection {
+    background-color: #91D8f7;
+    color: #fff;
+}
+
+a {
+    outline: 0;
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: #27B3CF;
+}
+
+p a {
+    color: #000000;
+    font-weight: bold;
+}
+
+a:active {
+    outline: none;
+    position: relative;
+    top: 2px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    background: #eee;
+    color: #222;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s;
+    -webkit-transition-timing-function: linear, ease-in;
+    -moz-transition-timing-function: linear, ease-in;
+    transition-timing-function: linear, ease-in;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    margin: 0px auto;
+    width: 800px;
+    background: #fff;
+    padding: 0px 0;
+}
+
+#header {
+    padding: 0px;
+    width: 800px;
+}
+
+h1 {
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 12px;
+    padding-top: 8px;
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s;
+    -webkit-transition-timing-function: linear, ease-in;
+    -moz-transition-timing-function: linear, ease-in;
+    transition-timing-function: linear, ease-in;
+}
+
+h1 a:hover {
+    text-decoration: none;
+    color: #27B3CF;
+}
+
+h2 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1px;
+    padding: 2px;
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s;
+    -webkit-transition-timing-function: linear, ease-in;
+    -moz-transition-timing-function: linear, ease-in;
+    transition-timing-function: linear, ease-in;
+}
+
+h3 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 0px;
+    margin: 0px 0 0 0;
+    text-align: center;
+}
+
+h4 a {
+    text-decoration: underline;
+}
+
+h4 a:hover {}
+
+#nav {
+    padding: 0px;
+    text-align: center;
+    font-size: 13px;
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    display: box;
+    box-orient: horizontal;
+}
+
+#nav a {
+    display: inline-block;
+    padding: 10px;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+}
+
+hr {
+    height: 2px;
+    background-color: #ccc;
+}
+
+#nav a:hover {
+    text-decoration: none;
+}
+
+#nav a:active {
+    position: relative;
+    top: 0;
+}
+
+.left-col {
+    width: 55%;
+    float: left;
+}
+
+.sidebar {
+    width: 42%;
+    float: right;
+    margin-bottom: 3px;
+    -webkit-transition-property: width;
+    -moz-transition-property: width;
+    transition-property: width;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s;
+    -webkit-transition-timing-function: linear, ease-in;
+    -moz-transition-timing-function: linear, ease-in;
+    transition-timing-function: linear, ease-in;
+}
+
+#featured {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#latest {
+    padding: 20px;
+}
+
+#about {
+    padding-top: 55px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    padding: 0 5px 0 5px;
+}
+
+.menu_align {
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul.horizontal_list li {
+    text-align: left;
+    float: left;
+    list-style: none;
+    padding: 0 10px 10px 0;
+}
+
+ul.horizontal_list2 li {
+    text-align: left;
+    float: left;
+    list-style: none;
+    padding: 0 5px 5px 0;
+}
+
+ul {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 30px;
+}
+
+ul.nav1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: inline;
+    text-align: -moz-center;
+}
+
+ul.nav2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: inline;
+    text-align: -moz-center;
+}
+
+ul li {
+    margin: 0 20px;
+}
+
+li.nav {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: -moz-center;
+}
+
+li.nav1 {
+    display: inline;
+    margin-left: 11px;
+    margin-right: 3px;
+    padding: 5px;
+    text-align: -moz-center;
+}
+
+li.nav2 {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: -moz-center;
+}
+
+li.imagebox {
+    display: inline-block;
+    margin-left: 11px;
+    margin-right: 3px;
+    padding: 5px;
+    text-align: -moz-center;
+}
+
+li.copyright {
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 5px;
+    text-align: -moz-center;
+}
+
+li.social {
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 10px;
+    text-align: -moz-center;
+}
+
+li {
+    line-height: 110%;
+    padding-left: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ol li {
+    padding: 10px 0px;
+}
+
+li.pc {
+    list-style-image: url(../images/pclogo.png);
+}
+
+li.apple {
+    list-style-image: url(../images/apple-logo.png);
+}
+
+li.webcam {
+    list-style-image: url(../images/webcamicon.png);
+}
+
+li.headphone {
+    list-style-image: url(../images/headphonesicon.png);
+}
+
+li.mic {
+    list-style-image: url(../images/micon.png);
+}
+
+li.web {
+    list-style-image: url(../images/interneticon.png);
+}
+
+li.flash {
+    list-style-image: url(../images/flashicon.png);
+}
+
+li.security {
+    list-style-image: url(../images/authorityicon.png);
+}
+
+#footer {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: -moz-center;
+    text-align: center;
+}
+
+#footer1 {
+    border-top-color: #000;
+    border-top: thick;
+    width: 100%;
+}
+
+#social {
+    border-top: thin;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#footer2 {
+    border-top: thin;
+}
+
+pre {
+    overflow: scroll;
+    font-size: 10px;
+}
+
+h1.access {
+    text-indent: -9999px;
+}
+
+h2.access {
+    text-indent: -9999px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    float: left;
+    width: 33%;
+    -webkit-transition-property: width;
+    -moz-transition-property: width;
+    transition-property: width;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s;
+    -webkit-transition-timing-function: linear, ease-in;
+    -moz-transition-timing-function: linear, ease-in;
+    transition-timing-function: linear, ease-in;
+    text-align: center;
+}
+
+#cc {
+    position: absolute;
+    height: 35px;
+    width: 48px;
+    color: #F00;
+    left: 5px;
+    top: 13px;
+    x-index: 1;
+    background-color: #D3D3D3;
+}
+
+.off-screen {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
